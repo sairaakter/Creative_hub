@@ -1,0 +1,167 @@
+/* banner start */
+
+.clastwo {
+  background-color: #fff;
+  color: #6d6565;
+  padding: 0 42px;
+}
+.clastwo:hover {
+  color: #fff;
+}
+
+.gapss {
+  display: flex;
+  gap: 24px;
+}
+
+.banner {
+  background: linear-gradient(
+    to bottom,
+    #b3dffe 42%,
+    rgba(195, 229, 254, 34%) 100%
+  );
+  padding: 70px 0 0 0;
+  margin-bottom: 67px;
+}
+.banner_content {
+}
+.banner_content h2 {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+  color: #1651a9;
+  margin: 0;
+}
+.banner_content h1 {
+  font-family: "Nunito";
+  font-size: 50px;
+  font-weight: 700;
+  color: #222222;
+  margin: 16px 0 13px 0;
+}
+.banner_content p {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 500;
+  color: #222222;
+  margin: 0 370px 33px 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* banner */
+  .clastwo {
+    padding: 0 35px;
+  }
+  .banner_content {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .gapss {
+    justify-content: center;
+  }
+  .gapss {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .banner_content p {
+    margin: 0 17px 19px 0;
+  }
+
+  .banner_content h1 {
+    font-size: 25px;
+  }
+  .banner_content h2 {
+    font-size: 20px;
+  }
+  .banner {
+    padding: 30px 0 0 0;
+    margin-bottom: 40px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* banner */
+  .clastwo {
+    padding: 0 42px;
+  }
+  .banner_content {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .gapss {
+    justify-content: center;
+  }
+  .banner_content p {
+    margin: 0 17px 19px 0;
+  }
+
+  .banner_content h1 {
+    font-size: 33px;
+  }
+  .banner {
+    padding: 35px 0 0 0;
+    margin-bottom: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* banner */
+  .clastwo {
+    padding: 0 42px;
+  }
+  .banner_content {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .gapss {
+    justify-content: center;
+  }
+  .banner_content p {
+    margin: 0 17px 19px 0;
+  }
+
+  .banner_content h1 {
+    font-size: 33px;
+  }
+  .banner {
+    padding: 35px 0 0 0;
+    margin-bottom: 45px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* banner */
+
+  .banner_content p {
+    margin: 0 17px 19px 0;
+  }
+
+  .banner_content h1 {
+    font-size: 33px;
+  }
+  .banner {
+    padding: 35px 0 0 0;
+    margin-bottom: 45px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner */
+
+  .banner_content p {
+    margin: 0 94px 33px 0;
+  }
+
+  .banner_content h1 {
+    font-size: 40px;
+  }
+  .banner {
+    padding: 60px 0 0 0;
+  }
+}

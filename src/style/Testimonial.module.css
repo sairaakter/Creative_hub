@@ -1,0 +1,149 @@
+/* testimonial animation */
+/* Swiper-er slide container ke allow kora jate shadow baire jete pare */
+.mySwiper {
+  padding: 40px 20px !important;
+  margin: -40px -20px !important;
+}
+.swiper {
+  padding: 20px !important; /* Eita must, shadow-r height onujayi padding nibe */
+  margin: -20px !important; /* Padding-er karone barta jayga offset korbe */
+}
+.swiper-slide {
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Swiper-er wrapper-ke linear transition dewa  ata carousal animation */
+.mySwiper :global(.swiper-wrapper) {
+  transition-timing-function: linear !important;
+}
+/* testimonial animation */
+
+/* testimonial start */
+.testimonial {
+  overflow: hidden;
+}
+.testimonial {
+  padding: 50px 0 80px;
+}
+.tes_item {
+  box-shadow: 0 0 30px rgba(44, 117, 238, 0.07) !important;
+  border: 1px solid rgba(221, 221, 221, 0.3) !important;
+  border-radius: 12px;
+  padding: 21px 19px;
+
+  /* for full height carousal */
+  height: 295px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important; /* Footer ke ekdom niche rakhbe */
+}
+.tes_item h1 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  /* margin: 8px 0 19px; */
+  margin-bottom: 18px;
+}
+.china {
+  display: flex;
+  gap: 26px;
+}
+.china p {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+.ts_intro {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.ts_intro img {
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* <!-- testimonial start --> */
+
+  .testimonial {
+    padding: 35px 0 45px;
+  }
+  .tes_item h1 {
+    font-size: 16px;
+  }
+  .china p {
+    font-size: 16px;
+  }
+
+  .china {
+    gap: 8px;
+  }
+
+  .tes_item {
+    padding: 15px 18px;
+  }
+  .tes_item {
+    height: 228px !important;
+  }
+  /* for shadow */
+  .mySwiper {
+    padding: 15px 5px !important;
+    margin: 0 !important;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* <!-- testimonial start --> */
+
+  .testimonial {
+    padding: 35px 0 45px;
+  }
+  .tes_item h1 {
+    font-size: 18px;
+  }
+  .china p {
+    font-size: 18px;
+  }
+  .tes_item {
+    height: 237px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* <!-- testimonial start --> */
+
+  .testimonial {
+    padding: 35px 0 45px;
+  }
+  .tes_item h1 {
+    font-size: 18px;
+  }
+  .china p {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* <!-- testimonial start --> */
+
+  .testimonial {
+    padding: 35px 0 60px;
+  }
+  .tes_item {
+    height: 302px !important;
+  }
+}

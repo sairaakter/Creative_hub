@@ -1,0 +1,309 @@
+/* hAbout us start */
+.habout {
+  background-color: #f9f4f1;
+  margin-bottom: 77px;
+}
+.cust_hrow {
+  display: flex;
+  align-items: center;
+}
+.h_wrper {
+  position: relative;
+  width: 100%;
+}
+.himg {
+}
+.e_batch {
+  background-color: yellow;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 52px;
+  border-radius: 77px;
+  /* //// */
+  /* display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; */
+  position: absolute;
+  top: 21%;
+  left: 42%;
+}
+.e_batch h5 {
+  font-family: "Nunito";
+  font-size: 56px;
+  font-weight: 700;
+  color: #222222;
+  margin: 0;
+  line-height: 170%;
+}
+.e_batch h6 {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 700;
+  color: #222222;
+  margin-top: -6px;
+  margin-bottom: 0;
+  line-height: 170%;
+}
+.ha_cont {
+}
+.ha_ttl {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+}
+.ha_ttl h2 {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+  color: #1651a9 !important;
+  margin: 0;
+}
+.ha_cont h3 {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 600;
+  color: #222222;
+  margin: 12px 0;
+}
+.ha_cont p {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 25px 0;
+  line-height: 170%;
+}
+.ha_sarvic {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 28px;
+  margin-right: 59px;
+}
+.per_srv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.per_srv img {
+}
+.per_srv h4 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+  line-height: 170%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* hAbout us start */
+  .habout {
+    padding: 23px 0;
+    margin-bottom: 45px;
+  }
+  .cust_hrow {
+    gap: 25px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 10px;
+  }
+
+  /* .e_batch {
+    left: 57%;
+} */
+  .e_batch {
+    display: none;
+    padding: 8px 33px;
+    top: 6%;
+    left: 3%;
+  }
+  .e_batch h5 {
+    font-size: 43px;
+    line-height: normal;
+  }
+  .e_batch h6 {
+    line-height: normal;
+  }
+  .ha_cont h3 {
+    font-size: 25px;
+    margin: 6px 0 6px 0;
+    line-height: 150%;
+  }
+
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+
+  .himg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 113%; */
+  }
+
+  .ha_ttl h2 {
+    font-size: 22px;
+  }
+  .per_srv h4 {
+    font-size: 16px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* hAbout us start */
+  .habout {
+    padding: 23px 0;
+    margin-bottom: 45px;
+  }
+  .cust_hrow {
+    gap: 25px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 14px;
+  }
+
+  /* .e_batch {
+    left: 57%;
+} */
+  .e_batch {
+    padding: 8px 33px;
+    top: 6%;
+    left: 3%;
+  }
+  .e_batch h5 {
+    font-size: 43px;
+    line-height: normal;
+  }
+  .e_batch h6 {
+    line-height: normal;
+  }
+  .ha_cont h3 {
+    font-size: 36px;
+    margin: 13px 0 13px 0;
+  }
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+
+  .himg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 113%; */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* hAbout us start */
+  .habout {
+    padding: 23px 0;
+    margin-bottom: 45px;
+  }
+  .cust_hrow {
+    gap: 25px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 14px;
+  }
+
+  .e_batch {
+    left: 57%;
+  }
+
+  .e_batch h5 {
+    font-size: 43px;
+    line-height: normal;
+  }
+  .e_batch h6 {
+    line-height: normal;
+  }
+  .ha_cont h3 {
+    font-size: 36px;
+    margin: 13px 0 13px 0;
+  }
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* hAbout us start */
+  .habout {
+    margin-bottom: 56px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 5px;
+  }
+
+  .e_batch {
+    padding: 8px 33px;
+    top: 6%;
+    left: 3%;
+  }
+
+  .e_batch h5 {
+    font-size: 43px;
+    line-height: normal;
+  }
+  .e_batch h6 {
+    line-height: normal;
+  }
+  .ha_cont h3 {
+    font-size: 36px;
+    margin: 4px 0 6px 0;
+  }
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* hAbout us start */
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 15px;
+  }
+
+  .e_batch {
+    padding: 8px 33px;
+    top: 21%;
+    left: 55%;
+  }
+
+  .e_batch h5 {
+    font-size: 40px;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+   
+} */
+
+/* //this are for custom container */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* hAbout us start */
+
+  .e_batch {
+    padding: 8px 33px;
+    top: 21%;
+    left: 55%;
+  }
+}

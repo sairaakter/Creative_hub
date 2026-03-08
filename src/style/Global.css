@@ -1,0 +1,138 @@
+/* Medium */
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito/static/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500; /* Define this as 500 */
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito/static/Nunito-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Define this as 600 */
+}
+
+/* Bold */
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito/static/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700; /* Define this as 700 */
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url(../font/Orbitron/static/Orbitron-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(../font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../font/inter/Inter-Regular.otf);
+  src: url(../font/inter/Inter-SemiBold.otf);
+}
+
+/* need nav global this styles */
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #064bad !important;
+  font-weight: 600 !important;
+}
+nav ul li a.active {
+  font-weight: 600 !important;
+}
+
+.nav_colpss {
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  height: 0;
+}
+
+.nav_colpss.show {
+  height: auto;
+}
+
+.nav_colpss.collapsing {
+  height: 0;
+}
+
+/* বড় স্ক্রিনের জন্য স্টাইল */
+@media (min-width: 992px) {
+  /* lg ব্রেকপয়েন্ট */
+  .nav_colpss {
+    height: auto;
+    overflow: visible;
+    display: block !important; /*Bootstrap এর সাথে কনফ্লিক্ট এড়ানোর জন্য */
+  }
+}
+/* need nav global this styles */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+   
+} */
+
+/* //this are for custom container */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  /* baner */
+  .ban_container {
+    max-width: 1407px !important;
+  }
+
+  /* hAbout us start */
+
+  .e_batch {
+    padding: 8px 33px;
+    top: 21%;
+    left: 55%;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  /* baner */
+  .ban_container {
+    max-width: 1481px !important;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  /* baner */
+  .ban_container {
+    max-width: 1638px !important;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  /* baner */
+  .ban_container {
+    max-width: 1745px !important;
+  }
+}
+@media (min-width: 1851px) {
+  /* header */
+  .cus_container {
+    max-width: 1600px !important;
+  }
+  /* baner  + quality + hAbout*/
+  .ban_container {
+    max-width: 1805px !important;
+  }
+}

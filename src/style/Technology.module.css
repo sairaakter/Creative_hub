@@ -1,0 +1,191 @@
+/* technology start */
+
+.technology {
+  margin: 90px 0 51px 0;
+}
+
+.cust_hrow {
+  display: flex;
+}
+.h_wrper {
+  position: relative;
+  width: 100%;
+}
+.himg {
+}
+.ha_cont {
+}
+.ha_ttl {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+}
+.ha_ttl h2 {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+  color: #1651a9 !important;
+  margin: 0;
+}
+.ha_cont h3 {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 600;
+  color: #222222;
+  margin: 12px 0;
+}
+.ha_cont p {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 25px 0;
+  line-height: 170%;
+}
+.ha_sarvic {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 28px;
+  margin-right: 59px;
+}
+.per_srv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.per_srv img {
+}
+.per_srv h4 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+  line-height: 170%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* technology hAbout us start */
+  .technology {
+    margin: 30px 0 37px 0;
+  }
+  .cust_hrow {
+    gap: 36px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 10px;
+  }
+
+  .ha_cont h3 {
+    font-size: 25px;
+    margin: 6px 0 6px 0;
+    line-height: 150%;
+  }
+
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+
+  .himg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 113%; */
+  }
+
+  .ha_ttl h2 {
+    font-size: 22px;
+  }
+  .per_srv h4 {
+    font-size: 16px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* technology hAbout us start */
+  .technology {
+    margin: 45px 0 40px 0;
+  }
+  .cust_hrow {
+    gap: 36px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 14px;
+  }
+
+  .ha_cont h3 {
+    font-size: 36px;
+    margin: 13px 0 13px 0;
+  }
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+
+  .himg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 113%; */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*technology hAbout us start */
+  .technology {
+    margin: 65px 0 40px 0;
+  }
+  .cust_hrow {
+    gap: 36px;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 14px;
+  }
+
+  .ha_cont h3 {
+    font-size: 36px;
+    margin: 13px 0 13px 0;
+  }
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* technology hAbout us start */
+  .technology {
+    margin: 80px 0 41px 0;
+  }
+
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 5px;
+  }
+
+  .ha_cont h3 {
+    font-size: 36px;
+    margin: 4px 0 6px 0;
+  }
+  .ha_cont p {
+    margin: 0 0 12px 0;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /*technology hAbout us start */
+  .ha_sarvic {
+    margin-right: 0;
+    gap: 15px;
+  }
+}

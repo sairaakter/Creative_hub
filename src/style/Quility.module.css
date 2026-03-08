@@ -1,0 +1,181 @@
+/* quality start */
+.quality {
+  padding: 55px 0 80px 0;
+}
+.quality_item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  /* background-color: #fff3f3; */
+  border-radius: 24px;
+  padding: 23px 13px;
+
+  /* ///// */
+  height: 100%; /* Card ke parent er soman height dibe */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quality_item img {
+}
+.quality_item h3 {
+  font-family: "Nunito";
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+  margin: 16px 0 10px 0;
+}
+.quality_item p {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin: 20px 0 0 0;
+  line-height: 180%;
+}
+.quality_lis h4 {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0 0 2px 0;
+  line-height: 180%;
+}
+.linetwo {
+  width: 82px;
+  height: 3px;
+  background-color: #1651a9;
+  text-align: center;
+}
+
+.clasthre {
+  padding: 0 42px;
+  height: 52px;
+  border-radius: 32px;
+  margin-top: 20px;
+}
+.magr {
+  margin: 30px 0 !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* quality start */
+  .quality {
+    padding: 42px 0 26px 0;
+  }
+
+  .magr {
+    display: none;
+    margin: 0 !important;
+  }
+  .clasthre {
+    padding: 0 30px;
+  }
+  .quality_item {
+    margin-bottom: 24px;
+  }
+
+  .quality_item img {
+    width: 41%;
+  }
+
+  .quality_item h3 {
+    font-size: 25px;
+  }
+
+  .quality_item p {
+    margin: 12px 0 0 0;
+  }
+
+  .clasthre {
+    margin-top: 14px;
+  }
+  .mrbtom {
+    margin-bottom: 24px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* quality start */
+  .quality {
+    padding: 51px 0 26px 0;
+  }
+
+  .magr {
+    display: none;
+    margin: 0 !important;
+  }
+  .clasthre {
+    padding: 0 30px;
+  }
+  .quality_item {
+    margin-bottom: 24px;
+  }
+
+  .quality_item img {
+    width: 41%;
+  }
+
+  .quality_item h3 {
+    font-size: 25px;
+  }
+
+  .quality_item p {
+    margin: 12px 0 0 0;
+  }
+
+  .clasthre {
+    margin-top: 14px;
+  }
+  .mrbtom {
+    margin-bottom: 24px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* quality start */
+  .quality {
+    padding: 51px 0 26px 0;
+  }
+
+  .magr {
+    display: none;
+    margin: 0 !important;
+  }
+  .clasthre {
+    padding: 0 30px;
+  }
+  .quality_item {
+    margin-bottom: 24px;
+  }
+  .mrbtom {
+    margin-bottom: 24px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* quality start */
+  .quality {
+    padding: 51px 0 46px 0;
+  }
+
+  .magr {
+    margin: 20px 0 !important;
+  }
+  .clasthre {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  /* quality start */
+  .qulty_contnr {
+    max-width: 394px !important;
+  }
+}

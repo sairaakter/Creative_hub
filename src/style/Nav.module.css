@@ -1,0 +1,322 @@
+.header {
+  padding: 44px 0 20px 0;
+  /* border-bottom: 1px solid #262626; */
+  background-color: #b3dffe;
+}
+/* abotpage */
+.about_header {
+  background-image: url(../assets/abotb_bnr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 44px !important;
+}
+
+.Abut_banner {
+  margin: 110px 0 275px;
+}
+.Abut_banner h1 {
+  font-family: "Nunito";
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 14px;
+}
+.Pg_links {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  gap: 12px;
+}
+.Pg_links a {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.Pg_links a:active {
+  color: black;
+}
+/* contpage */
+.cont_header {
+  background-image: url(../assets/con_banr.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 675px;
+  padding-top: 44px !important;
+}
+.navbar {
+}
+.logo {
+}
+nav {
+  background-color: #ffffff;
+  padding: 11px 40px !important;
+  border-radius: 41px;
+}
+nav ul li a {
+  font-family: "Nunito";
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #222222 !important;
+  background-color: transparent;
+  line-height: auto;
+  /* padding: 14px 28px !important; */
+  margin: 0 30px 0 0;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+nav ul li:last-child a {
+  margin-right: 0 !important;
+} /* 
+nav ul li a:hover,
+nav ul li a.active {
+  color: #064bad !important;
+  font-weight: 600 !important;
+}
+nav ul li a.active {
+  font-weight: 600 !important;
+} */
+
+/* toogolar icon changes styels */
+
+.nav_togle {
+  border: none;
+  padding: 0;
+}
+.nav_togle:focus {
+  /* text-decoration: none; */
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+.nav_togle .navbar-toggler-icon {
+  display: none;
+}
+
+.nav_togle .custom_toggler_icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+/* toogolar icon changes styels */
+/* ///////////////////// */
+/* comonbtn */
+.btn_arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 58px;
+  padding: 0 17px;
+  background-color: #0d57b6; /* blue */
+  color: #fff;
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn_arrow .arrow {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.btn_arrow:hover {
+  background-color: #03255a;
+}
+
+.btn_arrow:hover .arrow {
+  transform: translateX(5px);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header starrt */
+  .cus_container {
+  }
+
+  nav {
+    padding: 8px 24px !important;
+    border-radius: 51px;
+  }
+  nav ul li a {
+    margin: 8px 8px 0 0;
+    font-size: 16px !important;
+  }
+
+  .navb {
+    text-align: right;
+  }
+  .logo {
+    width: 76px;
+    height: 49px;
+  }
+
+  .btn_arrow {
+    padding: 8px 14px;
+    font-size: 16px !important;
+  }
+
+  .btn_arrow {
+    height: 42px !important;
+  }
+
+  /* about_banner */
+  .Abut_banner {
+    margin: 56px 0 81px;
+  }
+  .Abut_banner h1 {
+    font-size: 37px;
+    margin: 0 0 6px;
+  }
+
+  .Pg_links a {
+    font-size: 22px;
+  }
+  /* con_hedre */
+  .cont_header {
+    height: 319px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header starrt */
+  nav {
+    padding: 11px 28px !important;
+    border-radius: 51px;
+  }
+  nav ul li a {
+    margin: 12px 8px 0 0;
+    font-size: 18px !important;
+  }
+
+  .navb {
+    text-align: right;
+  }
+  .logo {
+    width: 82px;
+    height: 55px;
+  }
+
+  .btn_arrow {
+    padding: 10px 16px;
+    font-size: 18px !important;
+  }
+
+  .btn_arrow {
+    height: 50px !important;
+  }
+
+  /* about_banner */
+  .Abut_banner {
+    margin: 56px 0 81px;
+  }
+  .Abut_banner h1 {
+    font-size: 37px;
+    margin: 0 0 6px;
+  }
+
+  .Pg_links a {
+    font-size: 22px;
+  }
+  /* con_hedre */
+  .cont_header {
+    height: 332px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header starrt */
+  nav {
+    padding: 15px 28px !important;
+    border-radius: 51px;
+  }
+  nav ul li a {
+    margin: 12px 8px 0 0;
+    font-size: 18px !important;
+  }
+  .navb {
+    text-align: right;
+  }
+  .btn_arrow {
+    padding: 10px 16px;
+    font-size: 18px !important;
+  }
+
+  .btn_arrow {
+    height: 50px !important;
+  }
+
+  /* about_banner */
+  .Abut_banner {
+    margin: 56px 0 81px;
+  }
+  .Abut_banner h1 {
+    font-size: 37px;
+    margin: 0 0 6px;
+  }
+
+  .Pg_links a {
+    font-size: 22px;
+  }
+  /* con_hedre */
+  .cont_header {
+    height: 394px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* header starrt */
+  nav {
+    padding: 8px 28px !important;
+  }
+  nav ul li a {
+    margin: 0 8px 0 0;
+    font-size: 18px !important;
+  }
+  .btn_arrow {
+    padding: 10px 16px;
+    font-size: 18px !important;
+  }
+  .btn_arrow {
+    height: 50px !important;
+  }
+
+  /* about_banner */
+  .Abut_banner {
+    margin: 56px 0 81px;
+  }
+  .Abut_banner h1 {
+    font-size: 52px;
+    margin: 0 0 6px;
+  }
+  /* con_hedre */
+  .cont_header {
+    height: 499px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* header starrt */
+
+  nav ul li a {
+    margin: 0 20px 0 0;
+  }
+
+  /* about_banner */
+  .Abut_banner {
+    margin: 56px 0 155px;
+  }
+  /* con_hedre */
+  .cont_header {
+    height: 499px;
+  }
+}

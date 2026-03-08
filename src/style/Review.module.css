@@ -1,0 +1,190 @@
+/* review start */
+
+.review {
+  margin-bottom: 100px;
+}
+.rbg_stl {
+  background-color: #e8fbff;
+  box-shadow: 0 0 30px rgba(44, 117, 238, 0.07);
+  border: 1px solid rgba(221, 221, 221, 0.3);
+  border-radius: 12px;
+  padding: 56px 59px;
+}
+.rmain_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.r_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 26px;
+}
+
+.r_img {
+}
+.r_img img {
+}
+.r_con {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.r_con h2 {
+  font-family: "Nunito";
+  font-size: 32px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0;
+  text-align: center;
+}
+.r_con p {
+  font-family: "Nunito";
+  font-size: 48px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0;
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* review start */
+  .review {
+    margin-bottom: 40px;
+  }
+  .r_img img {
+    width: 100px;
+    height: 100px;
+  }
+  .r_con h2 {
+    font-size: 17px;
+  }
+  .r_con p {
+    font-size: 35px;
+  }
+  .rbg_stl {
+    padding: 44px 0px;
+  }
+  .r_item {
+    gap: 15px;
+  }
+  .rmain_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  .rbg_stl {
+    padding: 35px 0px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* review start */
+  .review {
+    margin-bottom: 40px;
+  }
+  .r_img img {
+    width: 100px;
+    height: 100px;
+  }
+  .r_con h2 {
+    font-size: 17px;
+  }
+  .r_con p {
+    font-size: 35px;
+  }
+  .rbg_stl {
+    padding: 44px 0px;
+  }
+  .r_item {
+    gap: 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* review start */
+  .review {
+    margin-bottom: 56px;
+  }
+  .r_img img {
+    width: 120px;
+    height: 120px;
+  }
+  .r_con h2 {
+    font-size: 21px;
+  }
+  .r_con p {
+    font-size: 40px;
+  }
+  .rbg_stl {
+    padding: 44px 0px;
+  }
+  .r_item {
+    gap: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* review start */
+  .review {
+    margin-bottom: 71px;
+  }
+  .r_img img {
+    width: 160px;
+    height: 160px;
+  }
+  .r_con h2 {
+    font-size: 26px;
+  }
+  .r_con p {
+    font-size: 44px;
+  }
+  .rbg_stl {
+    padding: 44px 0px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* review start */
+
+  .r_img img {
+    width: 180px;
+    height: 180px;
+  }
+  .r_con h2 {
+    font-size: 29px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  /* review start */
+  .r_img img {
+    width: 64px;
+    height: 64px;
+  }
+  .rmain_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    flex-direction: row;
+  }
+  .rbg_stl {
+    padding: 30px 0px;
+  }
+  .r_con p {
+    font-size: 27px;
+  }
+  .r_con h2 {
+    font-size: 16px;
+  }
+}

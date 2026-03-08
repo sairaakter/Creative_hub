@@ -1,0 +1,329 @@
+/* contact start */
+.contact {
+  padding: 60px 0;
+  background-color: #131415;
+}
+.co_wrap {
+  background-color: rgba(255, 255, 255, 15%);
+  box-shadow: 0 0 20px rgba(44, 117, 238, 0.07);
+  border: 1px solid rgba(221, 221, 221, 0.4);
+  border-radius: 12px;
+}
+
+.co_lft {
+  background-color: rgba(0, 0, 0, 20%);
+  border-radius: 12px;
+  padding: 44px 0 0 21px;
+  margin: 24px 0 10px 24px;
+}
+
+.co_lft h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.co_lft p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #fff;
+  opacity: 80%;
+  margin-bottom: 82px;
+}
+
+.c_mail {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  align-content: center;
+  /* padding-bottom: 16px; */
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  margin-bottom: 51px;
+}
+.c_mail a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.c_mail a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.c_pos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c_iconss {
+  display: flex;
+  gap: 10px;
+}
+.svg_bag {
+  width: 40px;
+  height: 40px;
+  background-color: #9ad744;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.imgcolochang {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.svg_bag:hover {
+  background-color: #fff;
+}
+
+.svg_bag:hover .imgcolochang {
+  color: #9ad744;
+}
+
+/* .gola img{
+  width: 272.5px;
+  height: 293.5px;
+} */
+
+/* formstyle */
+
+.cf_padd {
+  padding: 66px 100px 0 100px;
+}
+
+.sub_margbtm {
+  margin-bottom: 45px;
+}
+
+.name {
+  /* padding: 24px 40px; */
+  /* background-color: rgba(36, 36, 36, 0.5); */
+  /* border: 1px solid #262626; */
+  /* border-radius: 8px; */
+}
+
+.na_label {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 20%;
+  color: #fff;
+  margin-bottom: 12px !important;
+}
+.inputcss {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 20%;
+  color: #fff;
+  background: transparent !important;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 11px;
+  flex: 1;
+}
+.inputcss:focus {
+  background-color: transparent !important;
+  /* border-bottom-color: #3CC !important; */
+}
+input.inputcss::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 150%;
+  color: #656567;
+}
+/* formstyle */
+.sub_for {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.diff_btn button {
+  padding: 0 48px;
+  border-radius: 5px;
+  background-color: #8fdc24;
+  color: #fff;
+}
+
+.comonbtn {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  height: 54px;
+  border: none;
+}
+
+.diff_allbtns button {
+  position: relative;
+  overflow: hidden; /* Hide overflow animation */
+  z-index: 1;
+}
+.diff_allbtns button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0); /* Hide the background initially */
+  background: linear-gradient(0deg, #3b5c08 0%, #3b5c08 100%);
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease; /* Smooth transition for scale and opacity */
+  z-index: -1;
+  border-radius: 5px;
+}
+
+/* Hover Effect */
+.diff_allbtns button:hover::after {
+  transform: scale(1); /* Scale the background to full size */
+}
+
+.diff_allbtns button:hover {
+  color: #000; /* Text color change on hover */
+}
+/* Hover Effect */
+.sub_aro {
+  /* position: absolute; */
+  margin-left: 2px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* ontact form formstyl */
+  .gola img {
+    height: 113.5px;
+  }
+  .cf_padd {
+    padding: 55px 4px 0;
+  }
+  .co_lft p {
+    margin-bottom: 43px;
+    font-size: 16px !important;
+  }
+  .c_mail {
+    gap: 11px;
+    margin-bottom: 37px;
+  }
+  .co_lft {
+    padding: 25px 0 0 20px;
+    margin: 20px 0 0;
+  }
+  .co_lft h1 {
+    font-size: 24px !important;
+    margin-bottom: 7px;
+  }
+
+  .sub_aro img {
+    height: 105.31px;
+    margin-right: 55px;
+  }
+  .comonbtn {
+    height: 48px;
+  }
+  .diff_btn button {
+    padding: 0 33px;
+  }
+  .sub_for {
+    margin-top: 19px;
+  }
+  .contact {
+    padding: 30px 0;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* ontact form formstyl */
+  .gola img {
+    height: 136.5px;
+  }
+  .cf_padd {
+    padding: 55px 4px 0;
+  }
+  .co_lft p {
+    margin-bottom: 58px;
+  }
+  .c_mail {
+    gap: 11px;
+    margin-bottom: 37px;
+  }
+  .co_lft {
+    padding: 25px 0 0 20px;
+    margin: 20px 0 0;
+  }
+  .sub_aro img {
+    height: 105.31px;
+    margin-right: 55px;
+  }
+  .comonbtn {
+    height: 48px;
+  }
+  .diff_btn button {
+    padding: 0 33px;
+  }
+  .sub_for {
+    margin-top: 19px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* ontact form formstyl */
+  .gola img {
+    height: 136.5px;
+  }
+  .cf_padd {
+    padding: 55px 4px 0;
+  }
+  .co_lft p {
+    margin-bottom: 58px;
+  }
+  .c_mail {
+    gap: 11px;
+    margin-bottom: 37px;
+  }
+  .co_lft {
+    padding: 25px 0 0 15px;
+    margin: 17px 0 10px 17px;
+  }
+  .sub_aro img {
+    height: 105.31px;
+    margin-right: 55px;
+  }
+  .comonbtn {
+    height: 48px;
+  }
+  .diff_btn button {
+    padding: 0 33px;
+  }
+  .sub_for {
+    margin-top: 19px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* ontact form formstyl */
+  .gola img {
+    width: 151.5px;
+    height: 151.5px;
+  }
+  .cf_padd {
+    padding: 66px 47px 0;
+  }
+}
